@@ -1,17 +1,19 @@
 import math
+from module1 import *
 #Harjutus 8.
 
 #Harjutus 7.
 
 #Harjutus 6.
 print("Harjutus 6.")
-def is_prime(число):
-    if число<2:
-        return False
-    for i in range(2, число):
-        if число%i==0:
-            return False
-    return True
+a=is_prime(int(input("Напишите число ")))
+print(a)
+#    if число<2:
+#        return False
+#    for i in range(2, число):
+#        if число%i==0:
+#            return False
+#    return True
 #Harjutus 5.
 print("Harjutus 5.")
 a=float(input("Сумма вклада: "))
@@ -80,5 +82,3 @@ def arithmetic(a, b, operation):
         return "Неизвестная операция"
 результат=arithmetic(a, b, operation)
 print("Результат:", результат)
-
-
