@@ -1,3 +1,12 @@
+from datetime import *
+#Harjutus 7.
+def date_(d:int,m:int,y:int)-> bool:
+    try:
+        print(date(y,m,d))
+        flag=True
+    except:
+        flag=False
+    return flag
 #Harjutus 6.
 def is_prime(число)->bool:
     """
@@ -11,3 +20,6 @@ def is_prime(число)->bool:
             flag=False
             break
     return flag
+
+
+
