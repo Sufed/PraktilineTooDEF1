@@ -1,5 +1,5 @@
-﻿import math
-#Harjutus 8. dddd
+import math
+#Harjutus 8.
 
 #Harjutus 7.
 
@@ -18,7 +18,7 @@ a=float(input("Сумма вклада: "))
 лет=int(input("На сколько лет вклад? "))
 def bank(a, лет):
     for i in range(лет):
-        a*=1.1
+        a=a+a*0.1
     return a
 результат=bank(a, лет)
 print(результат)
@@ -80,6 +80,5 @@ def arithmetic(a, b, operation):
         return "Неизвестная операция"
 результат=arithmetic(a, b, operation)
 print("Результат:", результат)
-
 
 
