@@ -1,8 +1,12 @@
 import math
 from module1 import *
+from datetime import *
 #Harjutus 8.
 
 #Harjutus 7.
+print("Harjutus 7.")
+kuupaev=date_(int(input("Kuupäev: ")),int(input("Kuu: ")),int(input("Aasta:")))
+print(kuupaev)
 
 #Harjutus 6.
 print("Harjutus 6.")
@@ -82,3 +86,5 @@ def arithmetic(a, b, operation):
         return "Неизвестная операция"
 результат=arithmetic(a, b, operation)
 print("Результат:", результат)
+
+
